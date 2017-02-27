@@ -17,15 +17,15 @@ function showToastNoMask() {
 }
 
 function successToast() {
-  Toast.success('加载成功!!!', 1);
+  Toast.success('加载成功', 100);
 }
 
 function failToast() {
-  Toast.fail('加载失败!!!', 1);
+  Toast.fail('加载失败', 1);
 }
 
 function offline() {
-  Toast.offline('网络连接失败!!!', 1);
+  Toast.offline('网络连接失败', 1);
 }
 
 function loadingToast() {

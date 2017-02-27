@@ -7,7 +7,7 @@
   position: fixed;
   width: 100%;
   z-index: @toast-zindex;
-  font-size: @font-size-base;
+  font-size: 26px;
   text-align: center;
 
   &&-mask {
@@ -30,14 +30,14 @@
     right: 50%;
     display: block;
     .@{toastPrefixCls}-text {
-      min-width: 1.2rem;
+      min-width: 120px;
       border-radius: @radius-sm;
       color: @color-text-base-inverse;
       background-color: @fill-overlay-inverse;
       line-height: @line-height-paragraph;
       padding: @v-spacing-md @h-spacing-lg;
       &.@{toastPrefixCls}-text-icon {
-        border-radius: @radius-lg;
+        border-radius: 12px;
         padding: @v-spacing-lg @h-spacing-lg;
         .@{toastPrefixCls}-text-info {
           margin-top: @v-spacing-sm;
