@@ -125,7 +125,7 @@
     .@{listPrefixCls}-extra {
       flex-basis: 36%;
       color: @color-text-caption;
-      font-size: 34px; // 视觉要求先暂时写死
+      font-size: @font-size-caption;
       line-height: @line-height-paragraph;
       text-align: right;
       .ellipsis();
@@ -138,7 +138,7 @@
     /* 辅助性文字*/
     .@{listPrefixCls}-brief {
       color: @color-text-caption;
-      font-size: @font-size-subhead;
+      font-size: @font-size-base;
       line-height: @line-height-paragraph;
       margin-top: @v-spacing-sm;
       .ellipsis();
